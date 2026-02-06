@@ -184,7 +184,7 @@ const EducatorNote = ({ note }) => {
         className={`bg-gradient-to-br from-[#FFFDE7] to-[#FFF9C4] p-4 rounded-sm shadow-[2px_4px_12px_rgba(0,0,0,0.08)] transition-all duration-300 rotate-[-1deg] group-hover/note:rotate-0 font-lexend ${isOverflowing || isExpanded ? 'cursor-pointer hover:shadow-[4px_6px_16px_rgba(0,0,0,0.12)]' : 'cursor-default'} `}
       >
         <div className="flex items-center gap-1.5 text-[#5D4037] mb-2 pointer-events-none">
-          <MessageSquareQuote size={12} className="fill-amber-800/30"/>
+          <MessageSquare size={12} className="fill-amber-800/30"/>
           <span className="text-[10px] font-black uppercase tracking-wider">Educator Note</span>
         </div>
         <p
@@ -964,7 +964,7 @@ export default function App() {
                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     <div className="bg-blue-50/50 p-5 rounded-3xl border border-blue-100 flex flex-col gap-3 shadow-sm">
                        <div className="flex items-center gap-2">
-                          <div className="p-1.5 bg-blue-100 rounded-lg text-blue-800"><MessageSquareQuote size={16} /></div>
+                          <div className="p-1.5 bg-blue-100 rounded-lg text-blue-800"><MessageSquare size={16} /></div>
                           <h4 className="font-black text-[11px] uppercase tracking-wide text-[#0F172A]">Educator Notes</h4>
                        </div>
                        <p className="text-[12px] text-[#475569] leading-relaxed font-medium">On each card, you'll find the 'why.' I vet these tools so you can skip the trial-and-error.</p>
