@@ -32,9 +32,9 @@ import {
   Facebook,
   Youtube,
   Linkedin,
-  MessageSquareQuote,
+  MessageSquare,
   Sparkles,
-  Binoculars,
+  ScanEyes,
   Search as SearchIcon,
   Check,
   CalendarClock,
@@ -47,7 +47,7 @@ import {
   ChevronDown,
   Filter,
   Tags,
-  CheckCircle2,
+  CheckCircle,
   Download,
   Upload,
   Link2,
@@ -723,7 +723,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto">
           <header className="px-6 py-5 flex items-center justify-between gap-6">
             <div className="flex items-center gap-4 shrink-0">
-              <div className="bg-blue-800 p-3 rounded-2xl text-white shadow-md"><Binoculars size={24} /></div>
+              <div className="bg-blue-800 p-3 rounded-2xl text-white shadow-md"><ScanEye size={24} /></div>
               <div>
                 <h1 className="text-2xl font-black tracking-tight text-[#0F172A]">The EdTech Lookout</h1>
                 <span className="text-[11px] text-[#475569] font-black uppercase tracking-widest block mt-1">Maine Educator's Innovation Hub</span>
